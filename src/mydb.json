@@ -1,0 +1,606 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Tomato Soup",
+      "ingredients": [
+        "6 tomatoes",
+        "1 onion",
+        "2 garlic cloves",
+        "Salt",
+        "Pepper",
+        "Basil"
+      ],
+      "instructions": "Cook chopped tomatoes, onion, and garlic. Blend until smooth. Season with salt, pepper, and basil.",
+      "image_url": "./images/tomato_soup.jpg",
+      "rating": 7,
+      "execution_time": 30,
+      "isFavourite": false
+    },
+    {
+      "id": 2,
+      "title": "Spaghetti Carbonara",
+      "ingredients": [
+        "Spaghetti",
+        "2 eggs",
+        "Parmesan cheese",
+        "Bacon",
+        "Salt",
+        "Pepper"
+      ],
+      "instructions": "Cook spaghetti. Mix eggs and cheese. Cook bacon. Combine everything.",
+      "image_url": "./images/spaghetti_carbonara.jpg",
+      "rating": 8,
+      "execution_time": 25,
+      "isFavourite": false
+    },
+    {
+      "id": 3,
+      "title": "Avocado Toast",
+      "ingredients": [
+        "1 avocado",
+        "2 slices of bread",
+        "Salt",
+        "Pepper",
+        "Lemon juice (optional)"
+      ],
+      "instructions": "Mash the avocado and spread it on toasted bread slices. Season with salt, pepper, and a drizzle of lemon juice if desired.",
+      "image_url": "./images/avocado_toast.jpg",
+      "rating": 9,
+      "execution_time": 10,
+      "isFavourite": false
+    },
+    {
+      "id": 4,
+      "title": "Pancakes",
+      "ingredients": [
+        "1 cup flour",
+        "1 egg",
+        "1 cup milk",
+        "2 tbsp sugar",
+        "1 tsp baking powder",
+        "Butter or oil for cooking"
+      ],
+      "instructions": "Mix all ingredients to form a batter. Cook spoonfuls on a hot, greased griddle, flipping when bubbles form.",
+      "image_url": "./images/pancakes.jpg",
+      "rating": 8,
+      "execution_time": 20,
+      "isFavourite": false
+    },
+    {
+      "id": 5,
+      "title": "Greek Salad",
+      "ingredients": [
+        "Cucumbers",
+        "Tomatoes",
+        "Olives",
+        "Feta cheese",
+        "Olive oil",
+        "Lemon juice"
+      ],
+      "instructions": "Mix all ingredients together. Drizzle olive oil and lemon juice on top.",
+      "image_url": "./images/greek_salad.jpg",
+      "rating": 9,
+      "execution_time": 15,
+      "isFavourite": true
+    },
+    {
+      "id": 6,
+      "title": "Bean Soup",
+      "ingredients": [
+        "1 cup beans",
+        "4 cups broth",
+        "1 onion",
+        "2 carrots",
+        "Salt",
+        "Pepper"
+      ],
+      "instructions": "Cook all ingredients in a pot until beans are tender.",
+      "image_url": "./images/bean_soup.jpg",
+      "rating": 8,
+      "execution_time": 120,
+      "isFavourite": false
+    },
+    {
+      "id": 7,
+      "title": "Vegan Tacos",
+      "ingredients": [
+        "Tortillas",
+        "Black beans",
+        "Corn",
+        "Avocado",
+        "Salsa",
+        "Lettuce"
+      ],
+      "instructions": "Assemble tacos by placing beans, corn, avocado, salsa, and lettuce on tortillas.",
+      "image_url": "./images/vegan_tacos.jpg",
+      "rating": 8,
+      "execution_time": 15,
+      "isFavourite": false
+    },
+    {
+      "id": 8,
+      "title": "Quinoa Salad",
+      "ingredients": [
+        "Quinoa",
+        "Mixed vegetables",
+        "Olive oil",
+        "Lemon juice",
+        "Salt",
+        "Pepper"
+      ],
+      "instructions": "Cook quinoa. Mix with vegetables, olive oil, lemon juice, salt, and pepper.",
+      "image_url": "./images/quinoa_salad.jpg",
+      "rating": 7,
+      "execution_time": 30,
+      "isFavourite": true
+    },
+    {
+      "id": 9,
+      "title": "Margherita Pizza",
+      "ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "Fresh mozzarella",
+        "Basil leaves",
+        "Olive oil"
+      ],
+      "instructions": "Spread sauce on dough, add slices of mozzarella, and bake. Garnish with fresh basil and a drizzle of olive oil.",
+      "image_url": "./images/margherita_pizza.jpg",
+      "rating": 8,
+      "execution_time": 30,
+      "isFavourite": false
+    },
+    {
+      "id": 10,
+      "title": "Spaghetti Aglio e Olio",
+      "ingredients": [
+        "Spaghetti",
+        "4 garlic cloves",
+        "Red pepper flakes",
+        "Parsley",
+        "Olive oil"
+      ],
+      "instructions": "Cook spaghetti. Sauté garlic and red pepper flakes in olive oil, mix with spaghetti, and garnish with parsley.",
+      "image_url": "images/spaghetti_aglio.jpg",
+      "rating": 8,
+      "execution_time": 20,
+      "isFavourite": true
+    },
+    {
+      "id": 11,
+      "title": "Margarita Pizza",
+      "ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "Fresh mozzarella",
+        "Fresh basil",
+        "Olive oil",
+        "Salt"
+      ],
+      "instructions": "Spread tomato sauce over pizza dough, add slices of mozzarella, and basil. Drizzle with olive oil and a pinch of salt. Bake until crust is golden.",
+      "image_url": "./images/margarita_pizza.jpg",
+      "rating": 9,
+      "execution_time": 30,
+      "isFavourite": false
+    },
+    {
+      "id": 12,
+      "title": "Vegetable Stir Fry",
+      "ingredients": [
+        "Mixed vegetables",
+        "Soy sauce",
+        "Ginger",
+        "Garlic",
+        "Olive oil"
+      ],
+      "instructions": "Stir fry mixed vegetables with soy sauce, ginger, and garlic in olive oil.",
+      "image_url": "./images/veg_stir_fry.jpg",
+      "rating": 7,
+      "execution_time": 25,
+      "isFavourite": false
+    },
+    {
+      "id": 13,
+      "title": "Chicken Caesar Wrap",
+      "ingredients": [
+        "Chicken breast",
+        "Caesar dressing",
+        "Romaine lettuce",
+        "Parmesan cheese",
+        "Tortilla wrap"
+      ],
+      "instructions": "Cook chicken, then slice it. Mix with Caesar dressing, lettuce, and cheese, then wrap in a tortilla.",
+      "image_url": "./images/chicken_caesar_wrap.jpg",
+      "rating": 8,
+      "execution_time": 30,
+      "isFavourite": false
+    },
+    {
+      "id": 14,
+      "title": "Homemade Granola",
+      "ingredients": [
+        "Oats",
+        "Honey",
+        "Mixed nuts",
+        "Dried fruits"
+      ],
+      "instructions": "Mix ingredients and bake until crispy. Let it cool, and store in an airtight container.",
+      "image_url": "./images/granola.jpg",
+      "rating": 9,
+      "execution_time": 40,
+      "isFavourite": false
+    },
+    {
+      "id": 15,
+      "title": "Classic BLT Sandwich",
+      "ingredients": [
+        "Bacon",
+        "Lettuce",
+        "Tomato",
+        "Bread",
+        "Mayonnaise"
+      ],
+      "instructions": "Cook bacon, assemble sandwich with lettuce, tomato, bacon, and mayonnaise between bread slices.",
+      "image_url": "./images/blt.jpg",
+      "rating": 7,
+      "execution_time": 15,
+      "isFavourite": false
+    },
+    {
+      "id": 16,
+      "title": "Egg Salad",
+      "ingredients": [
+        "Boiled eggs",
+        "Mayonnaise",
+        "Mustard",
+        "Salt",
+        "Pepper",
+        "Chives"
+      ],
+      "instructions": "Mash boiled eggs, mix with mayonnaise, mustard, salt, pepper, and chives.",
+      "image_url": "./images/egg_salad.jpg",
+      "rating": 6,
+      "execution_time": 20,
+      "isFavourite": false
+    },
+    {
+      "id": 17,
+      "title": "Cobb Salad",
+      "ingredients": [
+        "Romaine lettuce",
+        "Tomatoes",
+        "Bacon",
+        "Boiled eggs",
+        "Avocado",
+        "Blue cheese",
+        "Chicken breast"
+      ],
+      "instructions": "Chop and mix all ingredients in a large bowl.",
+      "image_url": "./images/cobb_salad.jpg",
+      "rating": 8,
+      "execution_time": 30,
+      "isFavourite": false
+    },
+    {
+      "id": 18,
+      "title": "Vegetable Curry",
+      "ingredients": [
+        "Mixed vegetables",
+        "Coconut milk",
+        "Curry powder",
+        "Onion",
+        "Garlic",
+        "Olive oil"
+      ],
+      "instructions": "Sauté onions and garlic in oil, add vegetables, curry powder, and coconut milk. Simmer until vegetables are tender.",
+      "image_url": "./images/veg_curry.jpg",
+      "rating": 8,
+      "execution_time": 45,
+      "isFavourite": false
+    },
+    {
+      "id": 19,
+      "title": "Baked Salmon",
+      "ingredients": [
+        "Salmon fillets",
+        "Lemon",
+        "Olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "instructions": "Season salmon with lemon, oil, salt, and pepper. Bake until cooked through.",
+      "image_url": "./images/baked_salmon.jpg",
+      "rating": 9,
+      "execution_time": 30,
+      "isFavourite": false
+    },
+    {
+      "id": 20,
+      "title": "Garlic Bread",
+      "ingredients": [
+        "Baguette",
+        "Butter",
+        "Garlic powder",
+        "Parsley"
+      ],
+      "instructions": "Spread butter mixed with garlic powder and parsley on baguette slices. Bake until crispy.",
+      "image_url": "./images/garlic_bread.jpg",
+      "rating": 7,
+      "execution_time": 15,
+      "isFavourite": false
+    },
+    {
+      "id": 21,
+      "title": "Tomato Basil Soup",
+      "ingredients": [
+        "Tomatoes",
+        "Onion",
+        "Garlic",
+        "Chicken or vegetable broth",
+        "Fresh basil",
+        "Cream",
+        "Butter"
+      ],
+      "instructions": "Sauté onions and garlic, add tomatoes and broth, simmer. Blend until smooth, return to heat, add cream and butter.",
+      "image_url": "./images/tomato_basil_soup.jpg",
+      "rating": 9,
+      "execution_time": 40,
+      "isFavourite": false
+    },
+    {
+      "id": 22,
+      "title": "Fruit Salad",
+      "ingredients": [
+        "Mixed fruits",
+        "1 cup yogurt",
+        "2 tbsp honey"
+      ],
+      "instructions": "Mix chopped fruits with yogurt and honey.",
+      "image_url": "./images/fruit_salad.jpg",
+      "rating": 9,
+      "execution_time": 15,
+      "isFavourite": false
+    },
+    {
+      "id": 23,
+      "title": "Caesar Salad",
+      "ingredients": [
+        "Romaine lettuce",
+        "Croutons",
+        "Parmesan cheese",
+        "Caesar dressing"
+      ],
+      "instructions": "Toss lettuce with croutons, Parmesan, and Caesar dressing.",
+      "image_url": "./images/caesar_salad.jpg",
+      "rating": 7,
+      "execution_time": 10,
+      "isFavourite": false
+    },
+    {
+      "id": 24,
+      "title": "Granola and Yogurt",
+      "ingredients": [
+        "2 cups yogurt",
+        "1 cup granola",
+        "1 tbsp honey",
+        "Fruits for topping"
+      ],
+      "instructions": "Layer yogurt and granola in a bowl or glass. Top with your choice of fruits and a drizzle of honey.",
+      "image_url": "./images/granola_yogurt.jpg",
+      "rating": 8,
+      "execution_time": 5,
+      "isFavourite": false
+    },
+    {
+      "id": 25,
+      "title": "Veggie Omelette",
+      "ingredients": [
+        "3 eggs",
+        "Mixed vegetables",
+        "1 tbsp oil",
+        "Salt",
+        "Pepper"
+      ],
+      "instructions": "Beat the eggs and season with salt and pepper. Sauté vegetables in oil, then pour eggs over vegetables. Cook until eggs are done.",
+      "image_url": "./images/veggie_omelette.jpg",
+      "rating": 7,
+      "execution_time": 15,
+      "isFavourite": false
+    },
+    {
+      "id": 26,
+      "title": "Vegetable Curry",
+      "ingredients": [
+        "Mixed vegetables",
+        "1 can coconut milk",
+        "Curry powder",
+        "Salt",
+        "Cooked rice for serving"
+      ],
+      "instructions": "Cook mixed vegetables with coconut milk and curry powder. Season with salt. Serve over cooked rice.",
+      "image_url": "./images/vegetable_curry.jpg",
+      "rating": 8,
+      "execution_time": 40,
+      "isFavourite": false
+    },
+    {
+      "id": 27,
+      "title": "Baked Ziti",
+      "ingredients": [
+        "Ziti pasta",
+        "Marinara sauce",
+        "Ricotta cheese",
+        "Mozzarella cheese",
+        "Parmesan cheese"
+      ],
+      "instructions": "Cook pasta and mix with marinara sauce and ricotta. Top with mozzarella and Parmesan. Bake until cheese is melted.",
+      "image_url": "./images/baked_ziti.jpg",
+      "rating": 8,
+      "execution_time": 60,
+      "isFavourite": false
+    },
+    {
+      "id": 28,
+      "title": "Lentil Soup",
+      "ingredients": [
+        "1 cup lentils",
+        "Vegetable broth",
+        "1 onion",
+        "2 carrots",
+        "2 celery stalks",
+        "Salt",
+        "Pepper"
+      ],
+      "instructions": "Cook lentils with chopped vegetables in vegetable broth. Season with salt and pepper.",
+      "image_url": "./images/lentil_soup.jpg",
+      "rating": 9,
+      "execution_time": 45,
+      "isFavourite": false
+    },
+    {
+      "id": 29,
+      "title": "Caprese Salad",
+      "ingredients": [
+        "Tomatoes",
+        "Mozzarella cheese",
+        "Basil",
+        "Olive oil",
+        "Balsamic glaze"
+      ],
+      "instructions": "Layer sliced tomatoes, mozzarella, and basil. Drizzle with olive oil and balsamic glaze.",
+      "image_url": "./images/caprese_salad.jpg",
+      "rating": 7,
+      "execution_time": 10,
+      "isFavourite": false
+    },
+    {
+      "id": 30,
+      "title": "Chocolate Smoothie",
+      "ingredients": [
+        "1 banana",
+        "2 tbsp cocoa powder",
+        "1 cup milk",
+        "1 tbsp honey"
+      ],
+      "instructions": "Blend all ingredients together until smooth.",
+      "image_url": "./images/chocolate_smoothie.jpg",
+      "rating": 8,
+      "execution_time": 5,
+      "isFavourite": false
+    },
+    {
+      "id": 31,
+      "title": "Stuffed Bell Peppers",
+      "ingredients": [
+        "Bell peppers",
+        "Cooked rice",
+        "Tomato sauce",
+        "Onion",
+        "Garlic",
+        "Olive oil"
+      ],
+      "instructions": "Sauté onion and garlic in olive oil. Mix with rice and tomato sauce. Stuff bell peppers with the mixture and bake.",
+      "image_url": "./images/stuffed_peppers.jpg",
+      "rating": 8,
+      "execution_time": 60,
+      "isFavourite": false
+    },
+    {
+      "id": 32,
+      "title": "Garden Salad",
+      "ingredients": [
+        "Mixed greens",
+        "Tomatoes",
+        "Cucumbers",
+        "Carrots",
+        "Balsamic vinaigrette"
+      ],
+      "instructions": "Toss mixed greens, tomatoes, cucumbers, and carrots with balsamic vinaigrette.",
+      "image_url": "./images/garden_salad.jpg",
+      "rating": 7,
+      "execution_time": 10,
+      "isFavourite": false
+    },
+    {
+      "id": 33,
+      "title": "Peanut Butter and Jelly Sandwich",
+      "ingredients": [
+        "Bread slices",
+        "Peanut butter",
+        "Jelly or jam"
+      ],
+      "instructions": "Spread peanut butter on one bread slice and jelly or jam on the other. Press together to form a sandwich.",
+      "image_url": "./images/pbj.jpg",
+      "rating": 5,
+      "execution_time": 5,
+      "isFavourite": false
+    },
+    {
+      "id": 34,
+      "title": "Veggie Tacos",
+      "ingredients": [
+        "Tortillas",
+        "Black beans",
+        "Corn",
+        "Bell peppers",
+        "Onion",
+        "Salsa"
+      ],
+      "instructions": "Sauté bell peppers and onions. Assemble tacos with beans, corn, sautéed vegetables, and salsa.",
+      "image_url": "./images/veggie_tacos.jpg",
+      "rating": 8,
+      "execution_time": 20,
+      "isFavourite": false
+    },
+    {
+      "id": 35,
+      "title": "Grilled Cheese Sandwich",
+      "ingredients": [
+        "Bread slices",
+        "Cheese slices",
+        "Butter"
+      ],
+      "instructions": "Butter the bread slices, place cheese between them, and grill until the bread is toasted and the cheese is melted.",
+      "image_url": "./images/grilled_cheese.jpg",
+      "rating": 6,
+      "execution_time": 10,
+      "isFavourite": false
+    },
+    {
+      "id": 36,
+      "title": "Pasta Primavera",
+      "ingredients": [
+        "Pasta",
+        "Bell peppers",
+        "Zucchini",
+        "Carrots",
+        "Parmesan cheese",
+        "Olive oil",
+        "Garlic"
+      ],
+      "instructions": "Cook pasta. Sauté vegetables and garlic in olive oil, then mix with pasta and top with parmesan cheese.",
+      "image_url": "https://yourwebsite.com/images/pasta_primavera.jpg",
+      "rating": 8,
+      "execution_time": 25,
+      "isFavourite": false
+    },
+    {
+      "id": 37,
+      "title": "Veggie Burger",
+      "ingredients": [
+        "Veggie burger patty",
+        "Bun",
+        "Lettuce",
+        "Tomato",
+        "Ketchup",
+        "Mustard"
+      ],
+      "instructions": "Cook the veggie patty as per package instructions. Assemble the burger with lettuce, tomato, ketchup, and mustard.",
+      "image_url": "https://yourwebsite.com/images/veggie_burger.jpg",
+      "rating": 8,
+      "execution_time": 15,
+      "isFavourite": false
+    }
+  ]
+}
